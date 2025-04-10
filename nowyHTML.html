@@ -6,7 +6,7 @@
 		<title>Document</title>
 		<script src="nowyJS.js" defer></script>
 	</head>
-	<body>
+	<body class="light">
 		<div class="container">
 			<div id="message">Witaj świecie!</div>
 			<button id="changeBtn">Zmień!!!</button>
@@ -17,5 +17,18 @@
 <button id="addBtn">Dodaj</button>
 <ul id="itemList"></ul>
 		</div>
+
+		<button id="themeToggle">Tryb ciemny</button>
+
+		<style>body.light {
+			background: white;
+			color:black;}
+			
+			body.dark {
+				background:#333;
+				color:white;}</style>
+
+
+<span id="counter"></span>
 	</body>
 </html>
